@@ -24,6 +24,10 @@ header {
 	width: 96%;
 }
 
+H1.center {
+	text-align: center;
+}
+
 header img {
 	width: 100%;
 }
@@ -62,6 +66,10 @@ p {
 	margin-right: 40px;
 	margin-left: 40px;
 }
+
+h2 {
+	text-align: center;
+}
 	
 body {
 	margin-left: auto;
@@ -75,6 +83,78 @@ body {
 	background-color: rgb(190, 158, 173);
 }
 
+img.center {
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+}
+
+img.size {
+margin-left: 35%;
+	margin-right: 25%;
+	width: 100%;
+}
+
+img.position {
+	margin-left: 45%;
+}
+
+figcaption.middle {
+	margin-left: 50%;
+}
+
+figcaption.right {
+	 margin-left: 75%;
+}
+
+figcaption.align {
+	margin-left: 60%;
+}
+
+iframe{
+    border-width: 0px;
+}
+
+.left {
+	margin-right: 58%;
+	margin-left: 5%;
+	font-size: 28px;
+}
+
+.formRow {
+	font-size: 23px;
+	padding: 6px;
+}
+
+form#survey > fieldset {
+	background-color: rgb(194, 231, 180);
+	border-radius: 20px;
+	-webkit-flex: 1 1 300px;
+	flex: 1 1 300px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+}
+
+.formcontact {
+	font-size: 23px;
+	padding: 6px;
+}
+
+.submit {
+	font-size: 15px;
+	font-family: Georgia, serif;
+	background-color: rgb(130, 71, 89);
+	color: white;
+	text-align: center;
+}
+
+/* Legend Styles */
+legend {
+	background-color: rgb(130, 71, 89);
+	color: white;
+	padding: 5px;
+}
 
 footer {
 	width: 96%;
@@ -87,18 +167,33 @@ footer {
 	background-color: rgb(126, 126, 126);
 }
 
+aside {
+   background-color: rgb(194, 231, 180);
+   padding-bottom: 2em;
+}
+
+aside > h3 {
+   text-align: center;
+   background-color: rgb(130, 71, 89);
+   color: white;
+   font-style: italic;
+}
+
+.tiny {
+	font-size: 16px;
+}
+
 figcaption {
 	 font-style: italic;
     font-size: 0.9em;
 }
-
 
 footer {
 	font-size: 1.9em;
 	font-family: Georgia, serif;
 }
 
-}/* navigation for footer */
+/* navigation for footer */
 footer a:link {
     color: rgb(194, 231, 180);
     text-decoration: none;
@@ -113,7 +208,6 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
-
 
 /* =============================================
 	Tablet layout styles used by devices
@@ -188,7 +282,6 @@ li {
   font-size: 2.2em;
   padding: 1em;
 }
-}
 
 
 /* =============================================
@@ -220,17 +313,27 @@ body {
 	float: none;
 	margin-left: auto;
 	background-color: rgb(190, 158, 173);
-	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	box-shadow: rgba(85, 37, 52, 0.9) 20px 0px 25px,  rgba(85, 37, 52, 0.9) -20px 0px 25px
+}
+
+.container {
+  align-items: center; 
+  float: left;
+}
+.image{
+    float: left;
+  padding: 0px;
+}
+
+.loki {
+	font-size: 1.5em;
+	color: rgb(194, 231, 180);
 }
 
 figcaption {
 	 font-style: italic;
     font-size: 0.9em;
 }
-
-
 
 footer {
 	font-size: 1.9em;
@@ -254,5 +357,29 @@ footer a:hover {
 }
 
 
+/* Table Styles */
+table.schedule {
+	background: rgb(194, 231, 180);
+	border: 10px outset rgb(130, 71, 89);
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 2em;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
 
+/* Table Cell Styles */
+table.schedule th, table.schedule td {
+	border: 1px solid gray;
+}
 
+table.schedule td {
+	width: 50%;
+}
+
+/*Row Group Styles */
+table.schedule th {
+	background: gray;
+	color: white;
+}
