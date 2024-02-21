@@ -37,21 +37,36 @@ fictional.
 	</header>
 	<!-- The article section(s) below are the content of your web page, text and images -->
   <article> 
-    <h1 class="center">Personalized Pet Portraits </h1>
-	 <p>Looking for a keepsake of your furry family member? I would be honored to create that for you! I work with clients to create personalized digital or colored pencil portraits.</p>
-	 
-	  <p>Please contact me if you would like a portrait. I offer two portrait sizes in colored pencil. I am open to doing almost any pose you would like, e.g. full body, head and shoulders. I also offer the option of adding a background at no additional charge.
-	  </p>
-	  
-	  
-	 <figure>
-  <img src = "images/Maya.png" alt = "Dog laying down next to toy squirrel"  />
-
-  <figcaption>
-    Colored pencil pet portrait of Maya with her favorite toy<br />
-  </figcaption> 
-</figure>
-
+    <h1 class="center">Interested in ordering a portrait?</h1>
+	 <p>Are you interested in starting the pet portrait process with me or just want more information before making a decision? I would be happy to chat with you!</p>
+	
+	<form id="survey" action="https://www.example.com/vjart/survey" method="post">
+		<fieldset id="custInfo">
+			<legend class="formcontact">Contact me here!</legend>
+			
+		<div class="formRow">	
+			<label for="name">Name*</label>
+			<input name="custName" id="name" type="text" placeholder="first and last name"/>
+		</div>
+		
+		<div class="formRow">	
+			<label for="mail">Email*</label>
+			<input name="custEmail" id="mail" type="email" />
+		</div>
+		
+		<div class="formRow">
+			<label>Let me know what you would like to talk about!</label>
+			<input/>
+		</div>
+		
+		<div>
+			<input class="submit" value="Submit" />
+		</div>
+		
+		</fieldset>	
+		
+		
+	</form>
 </article>
 
     <!-- The footer section below contains contact information, links and social medial link images -->
