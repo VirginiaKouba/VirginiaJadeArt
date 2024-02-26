@@ -35,6 +35,12 @@ header img {
 nav {
 	background-color: rgb(194, 231, 180);
 	text-align: center;
+	height: 47px;
+}
+
+.nowrap {
+	display: in-line block;
+	white-space: nowrap;
 }
 
 nav ul li a {
