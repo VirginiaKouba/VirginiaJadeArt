@@ -398,7 +398,8 @@ table.schedule {
 }
 
 /* Table Cell Styles */
-table.schedule th, table.schedule td {	
+table.schedule th, table.schedule td {
+	border: 1px solid gray;
 }
 
 table.schedule td {
